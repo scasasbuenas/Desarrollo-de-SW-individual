@@ -1,0 +1,66 @@
+
+h1 {
+ color: orange;
+ text-align: left;
+}
+
+p {
+ font-family: times;
+ font-size: 12px;
+}
+
+/*
+table {
+     th {
+        font-family: Helvetica;
+        background-color: lightblue;
+        color: white;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid black;
+        border: 1px solid black;
+    } 
+
+    border-collapse: collapse;
+}
+
+*/
+table {
+    th {
+        background-color: orange;
+        color: white;
+    }
+
+    td {
+        color: white;
+    }
+    margin: 30;
+    border-collapse: collapse;
+}
+
+.profile-img {
+    width: 300px;
+    height: 210px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.col-md-4 img {
+    /* Asegura que la imagen cubra el espacio disponible, podrías no necesitar esto si usas img-fluid y tu imagen ya llena el espacio correctamente */
+    width: 100%;
+    height: auto;
+  }
+
+.position-absolute {
+    /* Esto es para asegurar que el texto se posicione correctamente encima de la imagen */
+    top: 0;
+    left: 0;
+    color: white; /* Cambia el color del texto si es necesario */
+  }
+
+h1 {
+    color: white;
+}
